@@ -1,0 +1,64 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "Guitar Fundamentals",
+      "slug": "guitar-fundamentals",
+      "description": "Learn the basics of playing guitar with our comprehensive beginners course.",
+      "price": 99.9,
+      "instructor": "John Doe",
+      "isFeatured": true,
+      "image":"/courses/guitar.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Piano for Beginners",
+      "slug": "piano-for-beginners",
+      "description": "Start your piano journey with easy lessons and practical exercises.",
+      "price": 120,
+      "instructor": "Sarah Lee",
+      "isFeatured": true,
+      "image":"/courses/piano.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Advanced Music Theory",
+      "slug": "advanced-music-theory",
+      "description": "Deep dive into chords, scales, and advanced music composition techniques.",
+      "price": 150,
+      "instructor": "Michael Brown",
+      "isFeatured": true,
+      "image":"/courses/music_theory.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Drum Mastery",
+      "slug": "drum-mastery",
+      "description": "Learn professional drumming skills from rhythm basics to advanced beats.",
+      "price": 110,
+      "instructor": "Alex Smith",
+      "isFeatured": true,
+      "image":"/courses/drum.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Vocal Training Essentials",
+      "slug": "vocal-training-essentials",
+      "description": "Improve your voice control, pitch, and breathing techniques.",
+      "price": 130,
+      "instructor": "Emma Wilson",
+      "isFeatured": true,
+      "image":"/courses/training_essentials.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Music Production Basics",
+      "slug": "music-production-basics",
+      "description": "Learn how to produce, mix, and master music using modern tools.",
+      "price": 180,
+      "instructor": "David Johnson",
+      "isFeatured": true,
+      "image":"/courses/music_production.jpg"
+    }
+  ]
+}
