@@ -29,7 +29,7 @@ function page() {
             <div>
               <label className="block mb-2 text-sm">Message</label>
               <textarea
-                rows="5"
+                rows={5}
                 placeholder="Write your message..."
                 className="w-full rounded-lg bg-black border border-zinc-700 px-4 py-3 focus:outline-none focus:border-white"
               ></textarea>

@@ -4,15 +4,16 @@ import { motion } from "motion/react";
 
 
 
-const transition = {
-  type: "spring",
-  mass: 0.5,
-  damping: 11.5,
-  stiffness: 100,
-  restDelta: 0.001,
-  restSpeed: 0.001,
-};
+import { Transition } from "framer-motion";
 
+const transition: Transition = {
+  type: "spring",      // ✅ string literal type is ok
+  mass: 0.5,
+  damping: 12,
+  stiffness: 120,
+  restDelta: 0.001,
+  restSpeed: 0.001
+};
 export const MenuItem = ({
   setActive,
   active,
